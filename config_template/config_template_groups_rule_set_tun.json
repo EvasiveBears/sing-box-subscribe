@@ -22,7 +22,7 @@
       {
         "tag": "proxyDns",
         "address": "tls://8.8.8.8",
-        "detour": "⚡ 自动选择"
+        "detour": "\uD83C\uDF0D 国外·免流"
       },
       {
         "tag": "localDns",
@@ -156,24 +156,6 @@
           ]
         }
       ]
-    },
-    {
-      "tag": "⚡ 自动选择",
-      "type": "urltest",
-      "outbounds": [
-        "{all}"
-      ],
-      "filter": [
-        {
-          "action": "include",
-          "keywords": [
-            "\uD83D\uDD38"
-          ]
-        }
-      ],
-      "url": "http://www.gstatic.com/generate_204",
-      "interval": "5m",
-      "tolerance": 50
     },
     {
       "type": "direct",
