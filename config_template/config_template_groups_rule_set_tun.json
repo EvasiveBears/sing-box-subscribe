@@ -158,6 +158,21 @@
       ]
     },
     {
+      "tag": "🎈 订阅信息",
+      "type": "selector",
+      "outbounds": [
+        "{all}"
+      ],
+      "filter": [
+        {
+          "action": "include",
+          "keywords": [
+            "\uD83D\uDD39"
+          ]
+        }
+      ]
+    },
+    {
       "type": "direct",
       "tag": "direct"
     },
