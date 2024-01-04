@@ -2,7 +2,7 @@ import json, os, tool, time, requests, sys, urllib, importlib, argparse, yaml, r
 import re
 from datetime import datetime
 from urllib.parse import urlparse
-from api.app import TEMP_DIR
+from app import TEMP_DIR
 from parsers.clash2base64 import clash2v2ray
 
 parsers_mod = {}
