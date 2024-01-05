@@ -204,9 +204,6 @@
       },
       {
         "clash_mode": "global",
-        "domain_suffix": [
-          ".dandaner.cn"
-        ],
         "outbound": "\uD83C\uDF0D 国外·免流"
       },
       {
@@ -218,6 +215,12 @@
           "devtools.azureedge.net"
         ],
         "outbound": "direct"
+      },
+      {
+        "domain_suffix": [
+          ".dandaner.cn"
+        ],
+        "outbound": "\uD83C\uDF0D 国外·免流"
       },
       {
         "domain": [
