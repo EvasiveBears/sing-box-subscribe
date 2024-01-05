@@ -204,6 +204,9 @@
       },
       {
         "clash_mode": "global",
+        "domain_suffix": [
+          ".dandaner.cn"
+        ],
         "outbound": "\uD83C\uDF0D 国外·免流"
       },
       {
@@ -217,13 +220,12 @@
         "outbound": "direct"
       },
       {
-        "rule_set": [
-          "geosite-google",
-          "geosite-openai",
-          "geoip-google"
-        ],
         "domain": [
           "ip.skk.moe"
+        ],
+        "domain_suffix": [
+          ".auth0.com",
+          ".openai.com"
         ],
         "outbound": "\uD83E\uDD16 OpenAI"
       },
@@ -240,20 +242,13 @@
       },
       {
         "rule_set": [
-          "geoip-cn",
-          "geosite-cn"
+          "geosite-cn",
+          "geoip-cn"
         ],
         "outbound": "\uD83C\uDDE8\uD83C\uDDF3 国内·免流"
       }
     ],
     "rule_set": [
-      {
-        "tag": "geoip-google",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/google.srs",
-        "download_detour": "direct"
-      },
       {
         "tag": "geoip-netflix",
         "type": "remote",
@@ -273,13 +268,6 @@
         "type": "remote",
         "format": "binary",
         "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/openai.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geosite-google",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/google.srs",
         "download_detour": "direct"
       },
       {
