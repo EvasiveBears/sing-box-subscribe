@@ -36,6 +36,11 @@
     ],
     "rules": [
       {
+        "outbound": "any",
+        "server": "localDns",
+        "disable_cache": true
+      },
+      {
         "domain": [
           "ghproxy.com",
           "cdn.jsdelivr.net",
@@ -60,7 +65,8 @@
         "server": "proxyDns"
       }
     ],
-    "strategy": "ipv4_only"
+    "strategy": "ipv4_only",
+    "independent_cache": true
   },
   "inbounds": [
     {
