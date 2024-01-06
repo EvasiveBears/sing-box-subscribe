@@ -124,6 +124,12 @@
           "keywords": [
             "\uD83C\uDDE8\uD83C\uDDF3"
           ]
+        },
+        {
+          "action": "exclude",
+          "keywords": [
+            "隧道"
+          ]
         }
       ]
     },
